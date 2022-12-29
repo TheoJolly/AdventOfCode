@@ -9,7 +9,8 @@
                 "build",
                 "${workspaceFolder}/2022.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-nowarn"
             ],
             "problemMatcher": "$msCompile"
         },
