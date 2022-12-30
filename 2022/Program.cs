@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Day1 today = new Day1();
-            Console.WriteLine(today.GetTopThreeElvesCalorieCountsTotal());
+            Day2 today = new Day2();
+            Console.WriteLine(today.GetRPSTournamentScore_new());
         }
     }
 }

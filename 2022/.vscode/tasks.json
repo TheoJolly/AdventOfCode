@@ -22,7 +22,8 @@
                 "publish",
                 "${workspaceFolder}/2022.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "-nowarn"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -34,7 +35,8 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/2022.csproj"
+                "${workspaceFolder}/2022.csproj",
+                "-nowarn"
             ],
             "problemMatcher": "$msCompile"
         }
