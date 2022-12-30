@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Day2 today = new Day2();
-            Console.WriteLine(today.GetRPSTournamentScore_new());
+            Day3 today = new Day3();
+            Console.WriteLine(today.sumGroupPriorities());
         }
     }
 }
