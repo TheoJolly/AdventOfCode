@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Day3 today = new Day3();
-            Console.WriteLine(today.sumGroupPriorities());
+            var today = new Day6();
+            
         }
     }
 }
